@@ -11,7 +11,9 @@
 
         com.stuartsierra/component     {:mvn/version "0.3.2"}
         ;; Other stuff
-        datascript                     {:mvn/version "0.15.5"}
+        datascript                     {:git/url "https://github.com/theronic/datascript.git"
+                                        :sha     "250693df6c49829c054d0e38aec753c7c63fcf04"}
+        ;datascript                     {:mvn/version "0.15.5"}
         io.rkn/conformity              {:mvn/version "0.4.0"}            ;; should this be here?
         com.taoensso/timbre            {:mvn/version "4.8.0"}
         prismatic/plumbing             {:mvn/version "0.5.3"}}}
